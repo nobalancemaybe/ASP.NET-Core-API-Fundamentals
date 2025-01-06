@@ -1,0 +1,157 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "S:\\thinker-courses\\CityInfo.API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|s:\\thinker-courses\\cityinfo.api\\cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|s:\\thinker-courses\\cityinfo.api\\cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\cityinforepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|s:\\thinker-courses\\cityinfo.api\\cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\dbcontexts\\cityinfocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|s:\\thinker-courses\\cityinfo.api\\cityinfo.api\\services\\icityinforepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\services\\icityinforepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|s:\\thinker-courses\\cityinfo.api\\cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3DC13228-7B3F-4EB6-AB40-A019ACA92701}|CityInfo.API\\CityInfo.API.csproj|solutionrelative:cityinfo.api\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Program.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Program.cs",
+              "ToolTip": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Program.cs",
+              "RelativeToolTip": "CityInfo.API\\Program.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T01:19:53.818Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1337924956:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:350743133:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:131:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:132:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1672713623:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{c93a910a-0fa6-4307-93a4-f2bd61ec7828}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:2037576793:0:{bf84ea66-d821-4dba-b1b1-2777d8574775}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CityInfoRepository.cs",
+              "DocumentMoniker": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ToolTip": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Services\\CityInfoRepository.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\CityInfoRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA2wB0AAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T05:42:11.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ICityInfoRepositry.cs",
+              "DocumentMoniker": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Services\\ICityInfoRepositry.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\Services\\ICityInfoRepositry.cs",
+              "ToolTip": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\Services\\ICityInfoRepositry.cs",
+              "RelativeToolTip": "CityInfo.API\\Services\\ICityInfoRepositry.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-19T03:13:55.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "CityInfo.API\\appsettings.Development.json",
+              "ToolTip": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\appsettings.Development.json",
+              "RelativeToolTip": "CityInfo.API\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-19T00:21:43.019Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CityInfoContext.cs",
+              "DocumentMoniker": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeDocumentMoniker": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ToolTip": "S:\\thinker-courses\\CityInfo.API\\CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "RelativeToolTip": "CityInfo.API\\DbContexts\\CityInfoContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T05:48:26.185Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

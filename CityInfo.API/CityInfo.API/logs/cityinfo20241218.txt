@@ -1,0 +1,243 @@
+2024-12-18 23:17:38.407 +01:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2024-12-18 23:17:38.570 +01:00 [DBG] Hosting starting
+2024-12-18 23:17:38.876 +01:00 [INF] Now listening on: https://localhost:7189
+2024-12-18 23:17:38.877 +01:00 [INF] Now listening on: http://localhost:5251
+2024-12-18 23:17:38.879 +01:00 [DBG] Loaded hosting startup assembly CityInfo.API
+2024-12-18 23:17:38.879 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2024-12-18 23:17:38.885 +01:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2024-12-18 23:17:38.886 +01:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2024-12-18 23:17:39.188 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2024-12-18 23:17:39.190 +01:00 [INF] Hosting environment: Development
+2024-12-18 23:17:39.190 +01:00 [INF] Content root path: S:\thinker-courses\CityInfo.API\CityInfo.API
+2024-12-18 23:17:39.191 +01:00 [DBG] Hosting started
+2024-12-18 23:18:11.567 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-18 23:18:12.322 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-18 23:18:13.837 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-12-18 23:22:34.994 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-18 23:22:35.431 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-18 23:22:35.447 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:22:35.459 +01:00 [DBG] Created DbConnection. (10ms).
+2024-12-18 23:22:35.463 +01:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.467 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:22:35.469 +01:00 [DBG] Created DbConnection. (2ms).
+2024-12-18 23:22:35.470 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.480 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.481 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.485 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.485 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:22:35.485 +01:00 [DBG] Created DbConnection. (0ms).
+2024-12-18 23:22:35.485 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.485 +01:00 [DBG] An error occurred using the connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.485 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.485 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.485 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.492 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.501 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:35.505 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (3ms).
+2024-12-18 23:22:35.505 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (6ms).
+2024-12-18 23:22:35.509 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-12-18 23:22:35.530 +01:00 [INF] Executed DbCommand (18ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+PRAGMA journal_mode = 'wal';
+2024-12-18 23:22:35.531 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.533 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-12-18 23:22:35.590 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:35.590 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:35.590 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:35.590 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.590 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.590 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-12-18 23:22:35.595 +01:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "__EFMigrationsHistory" (
+    "MigrationId" TEXT NOT NULL CONSTRAINT "PK___EFMigrationsHistory" PRIMARY KEY,
+    "ProductVersion" TEXT NOT NULL
+);
+2024-12-18 23:22:35.595 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.596 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.596 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:22:35.596 +01:00 [DBG] Created DbConnection. (0ms).
+2024-12-18 23:22:35.596 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.597 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.598 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.598 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.600 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-12-18 23:22:35.600 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-12-18 23:22:35.600 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-12-18 23:22:35.600 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.601 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.601 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:22:35.603 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:22:35.603 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.604 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.604 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.605 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.605 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-18 23:22:35.605 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-18 23:22:35.605 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-12-18 23:22:35.605 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-18 23:22:35.605 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-18 23:22:35.606 +01:00 [DBG] Closing data reader to 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.607 +01:00 [DBG] A data reader for 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 0ms reading results.
+2024-12-18 23:22:35.607 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.607 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:35.616 +01:00 [INF] Applying migration '20241218221813_CityInfoDBInitialMigration'.
+2024-12-18 23:22:35.633 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:35.633 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:35.634 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-12-18 23:22:36.896 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-12-18 23:22:36.897 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:36.897 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.897 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.897 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-12-18 23:22:36.897 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "Cities" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_Cities" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "Description" TEXT NULL
+);
+2024-12-18 23:22:36.898 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:36.898 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-12-18 23:22:36.898 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE "PointOfInterests" (
+    "Id" INTEGER NOT NULL CONSTRAINT "PK_PointOfInterests" PRIMARY KEY AUTOINCREMENT,
+    "Name" TEXT NOT NULL,
+    "CityId" INTEGER NOT NULL,
+    CONSTRAINT "FK_PointOfInterests_Cities_CityId" FOREIGN KEY ("CityId") REFERENCES "Cities" ("Id") ON DELETE CASCADE
+);
+2024-12-18 23:22:36.898 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:36.898 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2024-12-18 23:22:36.898 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX "IX_PointOfInterests_CityId" ON "PointOfInterests" ("CityId");
+2024-12-18 23:22:36.898 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:22:36.898 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:22:36.898 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241218221813_CityInfoDBInitialMigration', '8.0.0');
+2024-12-18 23:22:36.898 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241218221813_CityInfoDBInitialMigration', '8.0.0');
+2024-12-18 23:22:36.899 +01:00 [DBG] Committing transaction.
+2024-12-18 23:22:36.902 +01:00 [DBG] Committed transaction.
+2024-12-18 23:22:36.902 +01:00 [DBG] Disposing transaction.
+2024-12-18 23:22:36.903 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:22:36.903 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:22:36.904 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-12-18 23:22:36.904 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:22:36.904 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:42:35.328 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-18 23:42:35.910 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-18 23:42:36.362 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-12-18 23:43:22.678 +01:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2024-12-18 23:43:23.119 +01:00 [DBG] Entity Framework Core 8.0.0 initialized 'CityInfoContext' using provider 'Microsoft.EntityFrameworkCore.Sqlite:8.0.0' with options: None
+2024-12-18 23:43:23.136 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:43:23.144 +01:00 [DBG] Created DbConnection. (5ms).
+2024-12-18 23:43:23.147 +01:00 [DBG] Migrating using database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.151 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:43:23.153 +01:00 [DBG] Created DbConnection. (1ms).
+2024-12-18 23:43:23.154 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.160 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.163 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.166 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:43:23.177 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-12-18 23:43:23.185 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (5ms).
+2024-12-18 23:43:23.186 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (13ms).
+2024-12-18 23:43:23.186 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.188 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.195 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:43:23.227 +01:00 [INF] Executed DbCommand (23ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:43:23.229 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.230 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (1ms).
+2024-12-18 23:43:23.236 +01:00 [DBG] Creating DbConnection.
+2024-12-18 23:43:23.236 +01:00 [DBG] Created DbConnection. (0ms).
+2024-12-18 23:43:23.236 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.236 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.236 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.236 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:43:23.237 +01:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2024-12-18 23:43:23.237 +01:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2024-12-18 23:43:23.237 +01:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2024-12-18 23:43:23.237 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.237 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.237 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:43:23.237 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT(*) FROM "sqlite_master" WHERE "name" = '__EFMigrationsHistory' AND "type" = 'table';
+2024-12-18 23:43:23.237 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.237 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:43:23.264 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.264 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.264 +01:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2024-12-18 23:43:23.264 +01:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2024-12-18 23:43:23.264 +01:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2024-12-18 23:43:23.264 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-18 23:43:23.265 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2024-12-18 23:43:23.269 +01:00 [DBG] Closing data reader to 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.270 +01:00 [DBG] A data reader for 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db' is being disposed after spending 4ms reading results.
+2024-12-18 23:43:23.271 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.271 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:43:23.286 +01:00 [INF] Applying migration '20241218224236_CityInfoDBAddPOIDescription'.
+2024-12-18 23:43:23.324 +01:00 [DBG] Opening connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.324 +01:00 [DBG] Opened connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.327 +01:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2024-12-18 23:43:23.331 +01:00 [DBG] Began transaction with isolation level 'Serializable'.
+2024-12-18 23:43:23.332 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:43:23.333 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:43:23.333 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:43:23.334 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterests" ADD "Description" TEXT NULL;
+2024-12-18 23:43:23.338 +01:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE "PointOfInterests" ADD "Description" TEXT NULL;
+2024-12-18 23:43:23.338 +01:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2024-12-18 23:43:23.338 +01:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:43:23.338 +01:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2024-12-18 23:43:23.338 +01:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241218224236_CityInfoDBAddPOIDescription', '8.0.0');
+2024-12-18 23:43:23.338 +01:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO "__EFMigrationsHistory" ("MigrationId", "ProductVersion")
+VALUES ('20241218224236_CityInfoDBAddPOIDescription', '8.0.0');
+2024-12-18 23:43:23.339 +01:00 [DBG] Committing transaction.
+2024-12-18 23:43:23.348 +01:00 [DBG] Committed transaction.
+2024-12-18 23:43:23.352 +01:00 [DBG] Disposing transaction.
+2024-12-18 23:43:23.353 +01:00 [DBG] Closing connection to database 'main' on server 'S:\thinker-courses\CityInfo.API\CityInfo.API\CityInfo.db'.
+2024-12-18 23:43:23.353 +01:00 [DBG] Closed connection to database 'main' on server 'CityInfo.db' (0ms).
+2024-12-18 23:43:23.354 +01:00 [DBG] 'CityInfoContext' disposed.
+2024-12-18 23:43:23.354 +01:00 [DBG] Disposing connection to database 'main' on server 'CityInfo.db'.
+2024-12-18 23:43:23.354 +01:00 [DBG] Disposed connection to database 'main' on server 'CityInfo.db' (0ms).
